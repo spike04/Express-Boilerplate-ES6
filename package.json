@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon -r esm"
+    "dev": "nodemon start.js"
   },
   "author": "Rubin Bajracharya",
   "dependencies": {
@@ -17,7 +17,8 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "esm": "^3.0.84",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "nodemon": "^1.18.8"
   }
 }

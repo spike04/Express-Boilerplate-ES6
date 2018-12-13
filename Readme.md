@@ -13,7 +13,8 @@ The List of Packages used are as follows:
 - Jsonwebtoken (For Generating Token)
 - bcryptjs (for Encryption)
 - nodemon (for contineous server running)
-- esm (for utilizing es6 features)
+- ~~~esm (for utilizing es6 features)~~~
+- babel-register, babel-preset-env (for using es6 features)
 
 Currently there are only two routes
 
